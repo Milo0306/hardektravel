@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hardek Travel</title>
+  <link rel="stylesheet" href="index.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="language-switcher">
+    <img src="Resources/flag_pl.png" alt="PL" id="plFlag" onclick="setLanguage('pl')" />
+    <img src="Resources/flag_en.png" alt="EN" id="enFlag" onclick="setLanguage('en')" />
+  </div>
+
+  <main>
+    <div class="welcome" id="welcomeText"></div>
+
+    <div class="container">
+      <div class="block">
+        <a href="main.html">
+          <img src="Resources/LOGO - BIALE.png" alt="Hardek Travel" class="logo" />
+        </a>
+        <div class="label" id="travelText"></div>
+        <p class="desc" id="travelDesc"></p>
+      </div>
+    
+      <div class="block">
+        <a href="under_construction.html">
+          <img src="Resources/LOGO SERWIS - BIALE.png" alt="Hardek Serwis" class="logo" />
+        </a>
+        <div class="label" id="serviceText"></div>
+        <p class="desc" id="serviceDesc"></p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p id="footerText"></p>
+  </footer>
+
+  <script src="lang.js"></script>
+</body>
+</html>

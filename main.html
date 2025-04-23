@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>O nas – Hardek Travel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+   
+
+    <div class="nav-container">
+      <!-- Lewa sekcja: logo -->
+      <div class="nav-left">
+        <a href="index.html"><img src="Resources/LOGO_small.png" alt="Hardek Travel" class="hero-logo"></a>
+        
+      </div>
+
+      <!-- Środkowa sekcja: menu główne -->
+      <div class="nav-center">
+        <nav class="main-nav">
+          <a href="main.html" id="navHome"></a>
+          <a href="about.html?lang=pl" id="navAbout"></a>
+          <a href="offer.html?lang=pl" id="navOffer"></a>
+          <a href="contact.html?lang=pl" id="navContact"></a>
+        </nav>
+      </div>
+
+      <!-- Prawa sekcja: flagi -->
+      <div class="nav-right">
+        <img src="Resources/flag_pl.png" alt="PL" id="plFlag" onclick="setLanguage('pl')" />
+        <img src="Resources/flag_en.png" alt="EN" id="enFlag" onclick="setLanguage('en')" />
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="about" id="aboutSection">
+      <h1 id="aboutTitle" class="section-title">Kilka słów o nas.</h1>
+      <p id="aboutText" class="section-text">
+        Jesteśmy rozwijającą się firmą...   <!-- Tu się podmieni tekst z pliku JSON -->
+      </p>
+    </section>
+
+    <section class="offer-intro">
+      <h2 id="offerIntro">Zapoznaj się z ofertą i zarezerwuj swoją podróż!</h2>
+    </section>
+
+    <section class="offer-grid">
+      <a href="https://hardektravel.com/offer.html" class="offer-link">
+        <div class="offer-box">
+          <img src="Resources/wyspa.png" alt="Biura podróży">
+          <p id="offer1Title">Dla biur podróży</p>
+          <button class="btn-more">DOWIEDZ SIĘ WIĘCEJ!</button>
+        </div>
+      </a>
+      
+      <a href="https://hardektravel.com/offer.html" class="offer-link">
+      <div class="offer-box">
+        <img src="Resources/szkoła.png" alt="Szkoły">
+        <p id="offer2Title">Dla szkół i przedszkoli</p>
+        <button class="btn-more">DOWIEDZ SIĘ WIĘCEJ!</button>
+      </div>
+      </a>
+
+      <a href="https://hardektravel.com/offer.html" class="offer-link">
+      <div class="offer-box">
+        <img src="Resources/firma.png" alt="Firmy">
+        <p id="offer3Title">Dla firm</p>
+        <button class="btn-more">DOWIEDZ SIĘ WIĘCEJ!</button>
+      </div>
+      </a>
+
+      <a href="https://hardektravel.com/offer.html" class="offer-link">
+      <div class="offer-box">
+        <img src="Resources/kościół.png" alt="Pielgrzymki">
+        <p id="offer4Title">Dla pielgrzymów</p>
+        <button class="btn-more">DOWIEDZ SIĘ WIĘCEJ!</button>
+      </div>
+      </a>
+
+      <a href="https://hardektravel.com/offer.html" class="offer-link">
+      <div class="offer-box">
+        <img src="Resources/kieliszki.png" alt="Imprezy">
+        <p id="offer5Title">Imprezy okolicznościowe.</p>
+        <button class="btn-more">DOWIEDZ SIĘ WIĘCEJ!</button>
+      </div>
+      </a>
+
+      <a href="https://hardektravel.com//offer.html" class="offer-link">
+      <div class="offer-box">
+        <img src="Resources/ludzie.png" alt="Indywidualni">
+        <p id="offer6Title">Dla grup i klientów indywidualnych.</p>
+        <button class="btn-more">DOWIEDZ SIĘ WIĘCEJ!</button>
+      </div>
+      </a>
+    </section>
+  </main>
+
+  <!-- PLIK JS -->
+  <script src="lang.js"></script>
+</body>
+<footer>
+  <div id="footer-placeholder"></div>
+
+  <link rel="stylesheet" href="footer.css"> <!-- tylko raz na stronę -->
+  <script src="footer-loader.js"></script> 
+</footer>
+</html>

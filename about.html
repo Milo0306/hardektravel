@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hardek Travel - O nas">
+  <title>O nas - Hardek Travel</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="footer.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav-container">
+    <div class="nav-left">
+      <a href="index.html"><img src="Resources/LOGO_small.png" alt="Hardek Travel" class="hero-logo"></a>
+    </div>
+    <div class="nav-center">
+      <nav class="main-nav">
+        <a href="main.html" id="navHome"></a>
+        <a href="about.html" id="navAbout"></a>
+        <a href="offer.html" id="navOffer"></a>
+        <a href="contact.html" id="navContact"></a>
+      </nav>
+    </div>
+    <div class="nav-right">
+      <img src="Resources/flag_pl.png" alt="PL" id="plFlag" onclick="setLanguage('pl')">
+      <img src="Resources/flag_en.png" alt="EN" id="enFlag" onclick="setLanguage('en')">
+    </div>
+  </header>
+
+  <main class="about-wrapper">
+    <section class="about-intro">
+      <div class="about-text">
+        <h2 id="aboutTitle2"></h2>
+        <p id="aboutText2"></p>
+      </div>
+      <div class="about-image">
+        <img src="Resources/autosan.png" alt="Nasz pierwszy autokar">
+        <p class="caption" id="firstBusCaption"></p>
+      </div>
+    </section>
+
+    <section class="about-icons">
+      <div class="icon-grid">
+        <div class="icon-item"><img src="Resources/norma.png"><p id="iconEmission"></p></div>
+        <div class="icon-item"><img src="Resources/klimatyzacja.png"><p id="iconAC"></p></div>
+        <div class="icon-item"><img src="Resources/tv.png"><p id="iconDVD"></p></div>
+        <div class="icon-item"><img src="Resources/wifi.png"><p id="iconWiFi"></p></div>
+        <div class="icon-item"><img src="Resources/wc.png"><p id="iconWC"></p></div>
+      </div>
+    </section>
+
+    <section class="about-gallery">
+      <img src="Resources/IMG_1.JPG">
+      <img src="Resources/IMG_3.JPG">
+      <img src="Resources/IMG_4.JPG">
+      <img src="Resources/IMG_5.jpg">
+      <img src="Resources/IMG_6.JPG">
+      <img src="Resources/IMG_7.JPG">
+      <img src="Resources/IMG_8.JPG">
+      <img src="Resources/IMG_2.JPG">
+    </section>
+  </main>
+
+  <footer></footer>
+  <script src="lang.js"></script>
+  <script src="footer-loader.js"></script>
+</body>
+</html>

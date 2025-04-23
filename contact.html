@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt - Hardek Travel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="footer.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="nav-container">
+    <div class="nav-left">
+      <a href="index.html"><img src="Resources/LOGO_small.png" alt="Hardek Travel" class="hero-logo"></a>
+    </div>
+    <div class="nav-center">
+      <nav class="main-nav">
+        <a href="main.html" id="navHome"></a>
+        <a href="about.html" id="navAbout"></a>
+        <a href="offer.html" id="navOffer"></a>
+        <a href="contact.html" id="navContact"></a>
+      </nav>
+    </div>
+    <div class="nav-right">
+      <img src="Resources/flag_pl.png" alt="PL" id="plFlag" onclick="setLanguage('pl')" />
+      <img src="Resources/flag_en.png" alt="EN" id="enFlag" onclick="setLanguage('en')" />
+    </div>
+  </header>
+
+  <main class="contact-page">
+    <section class="contact-intro">
+      <h2 id="contactHeader"></h2>
+      <img src="Resources/LOGO - SZARE.png" alt="Hardek Travel" class="contact-logo" />
+      <h3 id="contactName"></h3>
+      <p>
+        <strong class="id-label" id="nipLabel">NIP:</strong>
+        <span id="nip">6321313349</span>
+        &nbsp;&nbsp;&nbsp;
+        <strong class="id-label" id="regonLabel">REGON:</strong>
+        <span id="regon">243242025</span>
+      </p>
+      
+    </section>
+  
+
+    <section class="contact-details">
+      <div class="contact-item">
+        <a href="https://www.google.com/maps?q=Ul.+Dąb+18a,+43-600+Jaworzno" target="_blank" class="contact-link">
+          <img src="Resources/lokalizacja.png" alt="Adres">
+          <p><strong id="contactAddressLabel"></strong><br><span id="contactAddress"></span></p>
+        </a>
+      </div>
+      <div class="contact-item">
+        <a href="tel:+48504655315" class="contact-link">
+          <img src="Resources/telefon2.png" alt="Telefon">
+          <p><strong id="contactPhoneLabel"></strong><br><span id="contactPhone"></span></p>
+        </a>
+      </div>
+      <div class="contact-item">
+        <a href="mailto:biuro@hardektravel.com" class="contact-link">
+          <img src="Resources/koperta2.png" alt="Email">
+          <p><strong id="contactEmailLabel"></strong><br><span id="contactEmail"></span></p>
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footerText"></p>
+  </footer>
+
+  <script src="lang.js"></script>
+</body>
+</html>
+</body>
+</html>

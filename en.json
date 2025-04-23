@@ -1,0 +1,65 @@
+{
+  "welcome": "WELCOME<br>PLEASE TAKE A LOOK AT OUR OFFER",
+  "travelDesc": "Domestic and international passenger transport",
+  "serviceDesc": "Professional car service",
+
+  "navHome": "Home",
+  "navAbout": "About us",
+  "navOffer": "Offer",
+  "navContact": "Contact",
+
+  "aboutTitle": "A few words about us.",
+  "aboutText": "We are a growing transport company operating since the 1990s. <br> We provide reliable equipment and qualified drivers. <br>We offer a wide range of services tailored to all needs. <br>With us, your journey will be comfortable and safe.",
+
+  "offerIntro": "Check out our offer and book your trip!",
+
+  "offer1Title": "For travel agencies",
+  "offer2Title": "For schools and kindergartens",
+  "offer3Title": "For businesses",
+  "offer4Title": "For pilgrims",
+  "offer5Title": "Special events",
+  "offer6Title": "For groups and individuals",
+  "btnMore": "LEARN MORE!",
+
+  "footerText": "© 2025 HARDEK TRAVEL. All rights reserved.",
+
+
+  "offerHeader": "We know that travel is more than just moving from place to place.",
+  "offerText1": "We take care of every detail so you can travel in peace and full comfort, whether it’s a group trip, business transfer or a journey to a special event.",
+  "offerText2": "Experienced drivers, regular technical inspections and attention to every detail mean you can trust us. Your comfort and safety are our priority.",
+  "offerText3": "With us, travel is more than a destination – it's an experience that combines comfort, reliability and a full sense of safety.",
+  "offerText4": "We offer a wide range of services for companies, groups and individual clients. We treat each of our clients uniquely and strive to ensure they are fully satisfied with our services.\n\nWe provide passenger transport services throughout the country and the European Union,\nincluding:",
+  "offerText5": "For more detailed information, please contact us. We’ll be happy to answer all your questions!",
+  "offerList1": "Service for travel agencies",
+  "offerList2": "School trips",
+  "offerList3": "Pilgrimages",
+  "offerList4": "Integration events",
+  "offerList5": "Services for companies and institutions",
+  "offerList6": "Airport transfers",
+  "offerList7": "24/7 support for special events",
+  "offerList8": "Transport for athletes to competitions",
+  "offerList9": "Employee transport",
+
+  "aboutTitle2": "Who are we?",
+  "aboutText2": "We are a growing family-run company with roots in a passion for travel and automotive. In 1993, we set off on our first trip with a reliable Autosan. Since then, we’ve completed hundreds of journeys, focusing on the comfort and safety of our clients. Our mission is to make every trip a convenient and memorable experience.",
+  "firstBusCaption": "Our first coach, 1993",
+
+  "iconEmission": "Minimum EURO 5 emission standard",
+  "iconAC": "Air conditioning | Fridge",
+  "iconDVD": "DVD | Sound system",
+  "iconWiFi": "WiFi",
+  "iconWC": "Toilet",
+
+  "contactHeader": "Contact us!",
+  "contactName": "Kamil Hardek",
+  "nipLabel": "NIP:",
+  "nip": "6321313349",
+  "regonLabel": "REGON:",
+  "regon": "243242025",
+  "contactAddressLabel": "Address:",
+  "contactAddress": "Dąb 18a, 43-600 Jaworzno",
+  "contactPhoneLabel": "Phone:",
+  "contactPhone": "+48 504 655 325",
+  "contactEmailLabel": "E-Mail:",
+  "contactEmail": "biuro@hardektravel.com"
+}

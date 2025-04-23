@@ -1,0 +1,64 @@
+{
+  "welcome": "WITAMY<br>ZAPRASZAMY DO ZAPOZNANIA SIĘ Z NASZĄ OFERTĄ",
+  "travelDesc": "Krajowy oraz międzynarodowy przewóz osób",
+  "serviceDesc": "Profesjonalny serwis samochodowy",
+
+  "navHome": "Strona główna",
+  "navAbout": "O nas",
+  "navOffer": "Oferta",
+  "navContact": "Kontakt",
+
+  "aboutTitle": "Kilka słów o nas.",
+  "aboutText": "Jesteśmy rozwijającą się firmą pełniącą usługi z zakresu przewozu osób, której historia sięga lat 90. <br> Zapewniamy niezawodny sprzęt oraz wykwalifikowanych kierowców. <br>Dysponujemy szerokim wachlarzem usług oraz ofertami dopasowanymi do wszelkich wymagań. <br>Z nami twoja podróż przebiegnie komfortowo i bezpiecznie.",
+
+  "offerIntro": "Zapoznaj się z ofertą i zarezerwuj swoją podróż!",
+
+  "offer1Title": "Dla biur podróży",
+  "offer2Title": "Dla szkół i przedszkoli",
+  "offer3Title": "Dla firm",
+  "offer4Title": "Dla pielgrzymów",
+  "offer5Title": "Imprezy okolicznościowe",
+  "offer6Title": "Dla grup i klientów indywidualnych",
+  "btnMore": "DOWIEDZ SIĘ WIĘCEJ!",
+
+  "footerText": "© 2025 HARDEK TRAVEL. Wszystkie prawa zastrzeżone.",    
+
+  "offerHeader": "Wiemy, że podróż to coś więcej niż przemieszczanie się z miejsca na miejsce.",
+  "offerText1": "Dbamy o każdy detal, byś mógł podróżować w spokoju i pełnym komforcie, niezależnie od tego, czy jest to wyjazd grupowy, transfer biznesowy czy podróż na wyjątkowe wydarzenie.",
+  "offerText2": "Doświadczenie kierowcy, regularne kontrole techniczne i dbałość o każdy szczegół sprawiają, że możesz nam zaufać. Twój komfort i bezpieczeństwo są dla nas priorytetem.",
+  "offerText3": "Z nami podróż to coś więcej niż cel, to doświadczenie, które łączy wygodę, niezawodność i pełne poczucie bezpieczeństwa.",
+  "offerText4": "Oferujemy szeroki zakres usług dla firm, grup i klientów indywidualnych. Każdego z naszych klientów traktujemy wyjątkowo i pragniemy aby był w pełni usatysfakcjonowany z naszych usług.\n\nPełnimy usługi przewozu osób na terenie kraju oraz Unii Europejskiej,\nw których skład wchodzą między innymi:",
+  "offerText5": "Po więcej szczegółowych informacji zapraszamy do kontaktu. Chętnie odpowiemy na wszystkie Państwa pytania!",
+  "offerList1": "Obsługa biur podróży",
+  "offerList2": "Wycieczki szkolne",
+  "offerList3": "Pielgrzymki",
+  "offerList4": "Imprezy integracyjne",
+  "offerList5": "Usługi dla firm i instytucji",
+  "offerList6": "Transfery lotniskowe",
+  "offerList7": "Całodobowa obsługa imprez okolicznościowych",
+  "offerList8": "Przewozy sportowców na zawody",
+  "offerList9": "Przewozy pracownicze",
+
+  "aboutTitle2": "Kim jesteśmy?",
+  "aboutText2": "Jesteśmy rozwijającą się rodzinną firmą, która swoje początki zawdzięcza wielkiej pasji do podróży i motoryzacji. W 1993 roku wyruszyliśmy w pierwszą trasę naszym niezawodnym Autosanem. Od tamtej pory zrealizowaliśmy setki wyjazdów, dbając o komfort i bezpieczeństwo naszych klientów. Naszą misją jest to, aby każda podróż była wygodna i zapamiętana z doskonałym doświadczeniem.",
+  "firstBusCaption": "Nasz pierwszy autokar, 1993",
+
+  "iconEmission": "Norma emisji spalin minimum EURO 5",
+  "iconAC": "Klimatyzacja | Lodówka",
+  "iconDVD": "DVD | Nagłośnienie",
+  "iconWiFi": "WiFi",
+  "iconWC": "Toaleta",
+
+  "contactHeader": "Skontaktuj się z nami!",
+  "contactName": "Kamil Hardek",
+  "nipLabel": "NIP:",
+  "nip": "6321313349",
+  "regonLabel": "REGON:",
+  "regon": "243242025",
+  "contactAddressLabel": "Adres:",
+  "contactAddress": "Dąb 18a, 43-600 Jaworzno",
+  "contactPhoneLabel": "Telefon:",
+  "contactPhone": "+48 504 655 325",
+  "contactEmailLabel": "E-Mail:",
+  "contactEmail": "biuro@hardektravel.com"
+}

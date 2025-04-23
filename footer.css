@@ -1,0 +1,130 @@
+/* Rozciągnięcie strony, by footer był na dole */
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;       /* pełna wysokość widoku */
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Główna treść (main) rośnie w pionie, wypychając footer na dół */
+main {
+  flex: 1;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  background-color: #111;
+  color: #aaa;
+  text-align: center;
+  padding-top: 12px;
+  box-sizing: content-box;
+}
+
+/* Kontener trzech kolumn: telefon, mail, social */
+.footer-container {
+  display: flex;
+  justify-content: space-around;  /* 3 kolumny na szerokość */
+  align-items: flex-start;        /* wyrównanie do góry */
+  flex-wrap: wrap;                /* zawijanie, gdy wąski ekran */
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 0px;
+}
+
+/* Każda kolumna (telefon, mail, social) – ikona nad tekstem */
+.footer-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Ikony telefonu i maila */
+.footer-icon {
+  width: 34px;      /* rozmiar dostosuj wg potrzeb */
+  height:34px;
+  filter: invert(0.8);
+  transition: filter 0.3s;
+  margin-bottom: 5px;   /* odstęp między ikoną a tekstem */
+}
+
+/* Tekst telefonu i maila */
+.footer-text {
+  font-size: 14px;
+  margin: 0;
+  transition: color 0.3s;
+  color: inherit;
+  text-decoration: none;
+}
+
+.footer-text:visited {
+  color: inherit;
+}
+
+.footer-text:hover {
+  color: #3b8f3b; /* zielony po najechaniu, jak inne */
+}
+
+/* Kolumna social: ikony w jednym wierszu, a tekst w kolejnym */
+.social-col .social-icons {
+  display: flex;
+  gap: 20px; /* odstęp między IG a FB ikonami */
+  margin-bottom: 5px;
+}
+
+/* Ikony social */
+.footer-icon-social {
+  width: 30px;
+  height: auto;
+  filter: invert(0.8);
+  transition: filter 0.5s;
+}
+
+/* Tekst social: INSTAGRAM | FACEBOOK */
+.footer-text-social {
+  margin: 0;
+  font-size: 14px;
+  transition: color 0.5s;
+}
+
+/* Usunięcie niebieskiego koloru linków */
+.footer-text-social a {
+  color: inherit;
+  text-decoration: none;
+  margin: 0 5px; /* mały odstęp przy '|', opcjonalnie */
+}
+
+/* Hover: podświetlenie na zielono ikony + tekstu */
+.footer-col:hover .footer-icon,
+.footer-col:hover .footer-text,
+.footer-col:hover .footer-icon-social,
+.footer-col:hover .footer-text-social a {
+  color: #3b8f3b;
+  filter: saturate(100%) brightness(100%) contrast(100%) sepia(10%);
+}
+
+.footer-bottom-text {
+  font-size: 10px;
+  color: #777;
+  margin-top: 12px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  /* Ustawienie kolumn pionowo przy wąskim ekranie */
+  .footer-container {
+    flex-direction: column;  /* Każda kolumna w osobnym wierszu */
+    align-items: center;     /* Wycentrowanie kolumn */
+    gap: 20px;               /* Odstępy między kolumnami */
+  }
+
+  /* Kolumny na całą szerokość z ewentualnym auto-centrowaniem */
+  .footer-col {
+    width: 150%;
+    max-width: 300px;        /* kontrola szerokości kolumny, opcjonalnie */
+    margin: 0 auto;          /* wycentrowanie, jeśli max-width < 100% */
+  }
+}
+
